@@ -8,7 +8,6 @@ $(document).ready(function() {
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-			alert("Thank you!");
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
