@@ -454,6 +454,12 @@
 		<!-- /.modal-dialog -->
 	</div>
 
+	<!-- Hidden Required Fields -->
+	<input type="hidden" name="project_name" value="Login from Delivery-Food">
+	<input type="hidden" name="admin_email" value="admin@verstka.kl.com.ua">
+	<input type="hidden" name="form_subject" value="Form from Delivery-Food">
+	<!-- END Hidden Required Fields -->
+	
 	<div class="modal-auth">
 		<div class="modal-dialog modal-dialog-auth">
 			<button class="close-auth">&times;</button>
@@ -462,11 +468,11 @@
 					<legend class="modal-title">Авторизация</legend>
 					<label class="label-auth">
 						<span>Логин</span>
-						<input id="login" type="text">
+						<input id="login" type="text" required>
 					</label>
 					<label class="label-auth">
 						<span>Пароль</span>
-						<input id="password" type="password">
+						<input id="password" type="password" required>
 					</label>
 				</fieldset>
 				<!-- /.modal-body -->
@@ -483,6 +489,7 @@
 	</div>
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/postForm.js"></script>
 </body>
 
 </html>
