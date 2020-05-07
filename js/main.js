@@ -38,6 +38,7 @@ function toogleModalAuth(){
 	modalAuth.classList.toggle("is-open");
 	warning.style.display = "";
 	warning.classList.remove('animated', 'shake');
+	logInInput.style.backgroundColor ="";
 }
 
 /* событие на слик по кнопке (обработчик события):
